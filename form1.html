@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+     <style>
+        body{
+            background-image: url(WhatsApp\ Image\ 2024-09-23\ at\ 11.24.32\ AM.jpeg); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        } 
+    
+       Form, label{
+            text-align: center;
+        }
+     </style>
+<body>
+    <h1 style="text-align:center;">Registration Form</h1>
+    <fieldset>
+    <form action="form2.html" method="get">
+        <label for="first">First Name</label>
+        <br>
+        <input type="text" id="First" placeholder="Enter Your First Name" required>
+        <br><br>
+        <label for="last">Last Name</label>
+        <br>
+        <input type="text" id="Last" placeholder="Enter Your Last Name" required>
+        <br><br>
+        <label for="Phone">Phone</label>
+        <br>
+        <input type="tel" id="Phone" placeholder="Enter Your Phone no.">
+        <br><br>
+       <label for="GENDER">GENDER</label>
+       <div class="v">
+           GENDER: MALE<input type="radio" name="MY GENDER" id="GENDER">FEMALE<input type="radio" name="MY GENDER" id="GENDER">OTHER<input type="radio" name="MY GENDER" id="GENDER">
+       </div>
+        <br>
+        <br>
+        <label for="start">Start date:</label>
+        
+    <input type="date" id="start" name="trip-start" value="2024-09-23" min="2018-01-01" max="2025-12-31" />
+    <br><br>
+    <label for="avatar">Choose a profile picture:</label>
+
+    <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg" />
+    <br>
+    <div>
+        <input type="range" id="volume" name="volume" min="0" max="11" />
+        <label for="volume">Volume</label>
+      </div>
+      <br><br>
+        
+        <label for="pet-select">Choose a pet:</label>
+
+<select name="pets" id="pet-select">
+  <option value="">--Please choose an option--</option>
+  <option value="dog">Dog</option>
+  <option value="cat">Cat</option>
+  <option value="hamster">Hamster</option>
+  <option value="parrot">Parrot</option>
+  <option value="spider">Spider</option>
+  <option value="goldfish">Goldfish</option>
+</select>
+<br><br>
+<input type="Submit" value="submit form">
+
+    
+
+    </form>
+    </fieldset>
+     
+</body>
+</html>
